@@ -1,0 +1,14 @@
+
+.tab-pane ul li { position:relative; }
+
+.errCont { left:146px; }
+
+.icon { margin:-30px 5px 0 0; clear:none; padding-top:0; }
+
+#paymentSection { margin-top:-5px; }
+
+.cvv-image { margin-left:10px; }
+
+.journey-details h5 .pickupPop { bottom:16px; left:55px; }
+
+.cvv-help-text { margin-left:10px; }

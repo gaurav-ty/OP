@@ -1,0 +1,96 @@
+
+.nav-tabs .active a, .fb-icon, .payment-btn, .entrust .entrust-icon, .icici-logo, .axis-logo, .hdfc-logo, .citi-logo, .idbi-logo, .kotak-logo, .sbi-logo, .blank-border-top, .blank-border, div.radio span, ul.social-logo li a, .cvv-image, .placeholder, .type, .nav-tabs li.blank-border-top, .debit-cvv-image, .lgInBtn, .border-line, .border-line-small { background: url(../img/page_sprite.gif) no-repeat; }
+
+#logo a, .callIcon, #state-phone .active .callIcon, .active:hover span { background:url(../img/common_sprite.gif) no-repeat; }
+
+.callIcon, #state-phone .active .callIcon, .active:hover span { background-position: 0 -53px; display: block; width: 28px; height: 27px; text-indent: -9999px; float: left; }
+
+#state-phone .active .contactNoTimeBlk, #state-phone .active .contactTime, .contactNoDD li span { background-image:none; }
+
+.contactNoDD { width:295px; top: 43px; }
+
+.contactNoContnr { border:1px solid #fff; width:295px; }
+
+#state-phone .active { border:1px solid #c2c2c2; }
+
+#content { border:1px solid #ebebeb; }
+
+.ui-tabs.ui-tabs-vertical .ui-tabs-nav li.ui-tabs-active a { background: #fff url(../img/page_sprite.gif) 122px -28px no-repeat; }
+
+.ui-tabs.ui-tabs-vertical .ui-tabs-nav li.ui-tabs-active a:hover { background: #fff url(../img/page_sprite.gif) 122px -28px no-repeat; color:#E16A28; }
+
+.fb-icon { background-position:-28px 0; height:20px; width:20px; text-indent:-9999px; }
+
+.orDiv { color: #797979; font-family: Georgia; font-size: 20px; font-style: italic; margin-left: -8px; position:absolute; }
+
+.ui-tabs .ui-tabs-panel { padding:0; width:510px; height: 145px; }
+
+.lgInBtn { background-position:right 0; padding:10px 0 12px; }
+
+.type, .unknown .type { background-position:-137px 0; }
+
+.cvv-image, .debit-cvv-image { background-position:-238px -137px; }
+
+.icici-logo { background-position:-110px -107px; }
+
+.axis-logo { background-position:-3px -111px; }
+
+.hdfc-logo { background-position:-2px -140px; }
+
+.idbi-logo { background-position:-8px -80px; }
+
+.sbi-logo { background-position:-110px -138px; }
+
+.citi-logo { background-position:-110px -79px; }
+
+div.selector { background-position: 0 -337px; }
+
+div.selector span { background-position: right -247px; }
+
+div.selector.focus, div.selector.hover, div.selector:hover, div.selector.focus:active, div.selector.focus.active, div.selector:hover:active, div.selector.active:hover { background-position:0 -367px; }
+
+div.selector.focus span, div.selector.hover span, div.selector:hover span, div.selector.focus:active span, div.selector:hover:active span, div.selector.active:hover span, div.selector.focus.active span { background-position:right -277px; }
+
+.entrust .entrust-icon { background-position:-33px -27px; }
+
+.icon { margin: -30px 70px 0 0; }
+
+.contentRt { width:285px; }
+
+.card-check label { left:-290px !important; }
+
+.pickupPop { top:-95px; left: -100px; }
+
+.journey-details h5 .pickupPop { top:-65px; }
+
+.qstn .pickupPop { top:-105px; left: -30px; }
+
+.errCont { left:146px; }
+
+.triArrow { border-top: 6px solid #e16a28; border-right: 6px solid #fff; border-left: 6px solid #fff; }
+
+.contactNoBlk span.currNo { font-size:15px; }
+
+.active .currNo, .active .contactNoBlk, .active .contactNoBlk span { background:none; }
+
+.active .triArrow { border-top: 6px solid #e16a28; border-right: 6px solid #ECECEC; border-left: 6px solid #ECECEC; }
+
+.contactDetlsBlk { margin-left:15px; }
+
+.active .contactTime { margin-top:-12px; }
+
+.contactNoDD li.cityLi-hover span { color: #fff; }
+
+.radio-list li label { margin:-23px 0 0 20px; }
+
+.ui-tabs.ui-tabs-vertical .ui-tabs-nav li a { width:9em; }
+
+.ui-tabs .ui-tabs-nav li.blank-border-top { background-position: -344px -85px; }
+
+#paymentSection { margin-left:65px; }
+
+.gendrArrow { border-left: 7px solid #fff; border-right: 7px solid #fff; border-bottom: none; border-top: 7px solid #225167; }
+
+.border-line { background-position:left -170px }
+
+.border-line-small { background-position: left -428px; }

@@ -1,0 +1,327 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Operator-Seo-Page</title>
+<link rel="stylesheet" type="text/css" href="Operator-Seo-Page.css">
+<link rel="stylesheet" type="text/css" href="css/uniform.default.css" media="all">
+<link rel="stylesheet" type="text/css" href="css/tabs.css">
+<link rel="stylesheet" type="text/css" href="css/reset.css">
+<link rel="stylesheet" type="text/css" href="css/common.css">
+<!--Date picker-->
+<link rel="stylesheet" type="text/css" href="styles/datePicker.css">
+
+<!-- page specific scripts -->
+		<script type="text/javascript" charset="utf-8">
+            $(function()
+            {
+				$('.date-pick').datePicker({clickInput:true})
+            });
+		</script>
+<script src="js/date.js"></script><script src="js/jquery.datePicker.js"></script>
+<!--Date picker-->       
+<script src=" js/jquery.min.js"></script>
+<script>
+$(document).ready(function()
+{
+	  $("#returnd").hide();
+	  $("#oneway").addClass("active");	
+	  $("#roundtrip").click(function()
+	  {
+		$("#returnd").show();
+		$("#roundtrip").addClass("active");
+		$("#oneway").removeClass("active");
+		
+		
+	  });
+	 $("#oneway").click(function()
+	 {
+		 
+		 $("#returnd").hide();
+		 $("#roundtrip").removeClass("active");
+		 $("#oneway").addClass("active");
+	 });
+});
+</script>
+
+
+	<script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
+ 	<script type="text/javascript" src="js/html5placeholder.jquery.js"></script>
+	<script src="js/jquery.ui.core.js"></script>
+	<script src="js/jquery.ui.widget.js"></script>
+	<script src="js/jquery.ui.tabs.js"></script>
+   
+    <script type="text/javascript" src="js/jquery.uniform.min.js"></script>
+    <script type="text/javascript" src="js/jquery.payment.js"></script>
+    
+    <!--page js-->
+    <script type="text/javascript" src="js/main.js"></script>
+	<script type="text/javascript" src="js/phoneDropdown.js"></script>
+
+<!--[if IE]>
+
+<style type = "text/css">
+	.bus-headers { background-image:url(images/bus-header_bg.gif); }
+    .active { background:#ccc; }
+</style>
+<![endif]-->
+
+<!--[if IE 8]>
+<style type = "text/css">
+	#border-box  { background-image:url(images/box-bg-ie.gif); }
+</style>
+<![endif]-->
+
+</head>
+
+<body>
+<!--Wrapper Starts--> 
+<div id="wrapper">
+   	 <!--Header Starts-->     
+      <div id="header" style="padding-bottom:0px;">
+    	<header>
+        	<div id="logo" class="fltLt">
+            	<a href="#">Travelyaari.com</a>
+            </div><!--logo ends-->
+            
+            <div id="state-phone" class="fltRt">
+            	<div class="contactNoContnr clearfix">
+                    <a class="contactDetlsBlk" href="#"> 
+                    	<span class="callIcon">call icon</span> 
+                        <span class="contactNoTimeBlk"> 
+                        	<span class="contactNoBlk"> 
+                            	<span class="triArrow"></span> 
+                                <span class="fltLt">
+                                	<span class="currNo">(080) &ndash; 44820000</span> 
+                                    <span class="currLoctn">Bangalore </span> 
+                                 </span> 
+                             </span> 
+                        	 <span class="contactTime">  &nbsp;&nbsp;&nbsp;(7:30 AM &ndash; 11:30 PM) </span> 
+	                     </span> 
+                     </a>
+                    
+                    <div class="contactNoDD dropDown">
+                        <ul>
+                            <li>
+                                <label> Bangalore </label><span>(080) &ndash; 44820000</span><br class="clrflt">
+                            </li>
+                            <li>
+                                <label> Ahmedabad</label><span>(079) &ndash; 44820000</span><br class="clrflt">
+                            </li>
+                            <li>
+                                <label> Baroda</label><span>1800 &ndash;103 &ndash; 4482</span><br class="clrflt">
+                            </li>
+                            <li>
+                                <label> Chandigarh </label><span>(0172) &ndash; 4482001</span><br class="clrflt">
+                            </li>
+                            <li>
+                                <label> Chennai</label><span>(044) &ndash; 44820000</span><br class="clrflt">
+                            </li>
+                            <li>
+                                <label> Goa</label><span>1800 &ndash; 103 &ndash; 4482</span><br class="clrflt">
+                            </li>
+                            <li>
+                                <label> Hyderabad </label><span>(040) &ndash; 44820000</span><br class="clrflt">
+                            </li>
+                            <li>
+                                <label> Indore</label><span>1800 &ndash; 103 &ndash; 4482</span><br class="clrflt">
+                            </li>
+                            <li>
+                                <label> Jaipur</label><span>1800 &ndash; 103 &ndash; 4482</span><br class="clrflt">
+                            </li>
+                            <li>
+                                <label> Kolkata </label><span>1800 &ndash; 103 &ndash; 4482 </span><br class="clrflt">
+                            </li>
+                            <li>
+                                <label> Mumbai</label><span>(022) &ndash; 44820000</span><br class="clrflt">
+                            </li>
+                            <li>
+                                <label>Nagpur</label><span>1800 &ndash; 103 &ndash; 4482</span><br class="clrflt">
+                            </li>
+                            <li>
+                                <label> New Delhi</label><span>(011) &ndash; 44820000</span><br class="clrflt">
+                            </li>
+                            <li>
+                                <label>Pune</label><span>(020) &ndash; 44820000</span><br class="clrflt">
+                            </li>
+                            <li>
+                                <label>Rajkot</label><span>1800 &ndash; 103 &ndash; 4482</span><br class="clrflt">
+                            </li>
+                            <li>
+                                <label>Surat</label><span>1800 &ndash; 103 &ndash; 4482</span><br class="clrflt">
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+          </div><!--state-phone ends-->
+            <div class="clrflt">&nbsp;</div>
+        </header>
+    </div>
+  <!--Header Ends-->
+       
+    <!--Search Box and info on the left-->    
+        <div class="searchbox">
+        	<div id="border-box">
+            	<div class="box">
+                	<div class="heading1"><h2>Neeta Travel Online Bus Booking</h2>
+                    	
+                    </div>
+                  <!--Search Box-->  
+                    <div class="search">
+                    	<ul class="tabs">
+                        	<li id="oneway"><a href="#">One-Way</a></li>
+                            <li id="roundtrip"><a href="#">Round trip</a></li>
+                        </ul>
+                      <form action="post" enctype="text/plain">  
+                        <div id="form">
+                        	<div class="fromto">
+                           	  <div class="from">
+                               	<h4 class="form-h"> From</h4>
+                                  <select name="city1" class="citynames">
+                                    <option value="Thi" selected>Thi</option>
+                                    <option value="Vishakapatnam">Vishakapatnam</option>
+                                  </select>	
+                              </div>
+                                <div class="to">
+                                	<h4 class="form-h">To</h4>
+                                  <select name="city2" class="citynames">
+                                    <option value="Thi" selected>Vishakapatnam</option>
+                                    <option value="Vishakapatnam">Thi</option>
+                                  </select>	
+                                </div>
+                            </div>
+                            <div class="deptarriv">
+                           	  <div class="from">
+                               	<h4 class="form-h">Depart on</h4>
+                               <!--<input name="date" type="date" class="dates" placeholder="Thru, 23-Mar-2013">-->
+	                               <input name="date1" id="date1" class="date-pick" />
+                                
+                              </div>
+                                <div class="to" id="returnd">
+                                	<h4 class="form-h">Return on</h4>
+                                  <!--<input name="date" type="date" class="dates" placeholder="Thru, 23-Mar-2013">-->
+                                  	<input name="date2" id="date2" class="date-pick" />
+                               
+                                </div>
+                            </div>
+                            <div class="bus_btn">
+               	    	    	<a href="#"><img src="images/search-bus-btn.gif" width="171"  height="29" border="0" alt="Search-Buses"></a>
+                            </div>
+                        </div>
+                       </form>	
+                    </div>
+                  <!--Search Box Ends-->    
+                </div>
+                <div class="text">
+                	<h2>Neeta Tours and Travels</h2>
+                    <p style="font-size:11px;"><b>Book bus tickets on all routes provided by Neeta Tours and Travels on travelyaari.com</b></p>
+                    <p>
+                    	One of the top and the most luxurious bus service provider, Neeta Tours and Travels offers the best bus journey to its passengers. Came into business in the year 2000, under Sunil Savla initiative, it is the top inter-city bus operator and has spread its service to more than 20 destination across 5 states in India. Moreover, it also offers daily bus service to and from Ahmedabad, Pune, Nashik, Mumbai, Jamnagar, Rajkot, Delhi, Udaipur and Baroda.
+                    </p>
+                    
+                    <p>
+                    	With the bus service spreading its services to more cities, it also started offering fleet of buses including Volvo and Axle. Each bus is designed to give extra comfort and safe journey for passengers. Regular maintenance, valuable time, professional trained drivers encourages passengers to book their journey with Neeta Tours and Travels.
+                    </p>
+                    
+                    <p>
+                    	Besides covering regular routes, Neeta Tours and Travels also offers daily routes; Satara- Bangalore, Pune .Sawantwadi, Amravati .Akola, Mumbai- Panjim, Mumbai- Mumbai Darshan, Belgaum .Pune, Chotila- Ahmedabad, Ankleshwar- Mumbai, Ahmednagar- Chikhli, Karad-Goa, Pune .Dharwad, Mumbai-Bangla, Pune- Chotlia, Bharuch- Surat and Satara- Mangalore.
+                    </p>
+                    
+                    <p>
+                    	Neeta Tours and Travels also offer online booking service along with Travelyaari.com making it easier for passenger to book their seat easy and without paying extra money.
+
+                    </p>
+                </div>
+            </div>
+        </div>
+    <!--Search Box and info on the left Ends--> 
+    
+    	<div id="list-details">		
+        	
+            <div class="heading" style="width:940px; height:50px;"><h3>Neeta Tours & Travels - Bus Schedule</h3></div>
+            
+            <div class="bus-details">
+            	<!--Bus Headers-->
+                <div class="bus-headers">	
+                	<div class="col1">
+                    	<span>Routes</span>
+                    </div>
+                    <div class="col2">
+                    	<span>No.of Buses/Day</span>
+                    </div>
+                    <div class="col3">
+                    	<span>First Bus</span>
+                    </div>
+                    <div class="col3">
+                    	<span>Last Bus</span>
+                    </div>
+                    <div class="col3">
+                    	<span>Lowest Fare</span>
+                    </div>
+                    <div class="col4" style="width:150px; height:30px; float:left;">
+                    	<span></span>
+                    </div>
+                </div>
+                <!--Bus Headers Ends-->
+                
+                <!--Bus details -->
+              <div class="bus-content">
+                	<div class="con1">
+                    	<span>Visakhapatnam to Thiruvananthapuram</span>
+                    </div>
+                    <div class="con2">
+                    	<span>10</span>
+                    </div>
+                    <div class="con3">
+                    	<span>10:00 AM</span>
+                    </div>
+                    <div class="con3">
+                    	<span>10:00 PM</span>
+                    </div>
+                    <div class="con3">
+                    	<span>Rs.8888/-</span>
+                    </div>
+                    <div class="con4" style="width:150px; height:40px; float:left; padding-top:10px;">
+                    	<span><img src="images/select-date-btn.png" width="120" height="26" title="Select-date" alt="Select-Date" 						 						></span>
+                  </div>
+                </div>
+                
+              <div class="bus-content">
+                	<div class="con1">
+                    	<span>Thiruvananthapuram to Visakhapatnam</span>
+                    </div>
+                    <div class="con2">
+                    	<span>8</span>
+                    </div>
+                    <div class="con3">
+                    	<span>10:00 PM</span>
+                    </div>
+                    <div class="con3">
+                    	<span>10:00 AM</span>
+                    </div>
+                    <div class="con3">
+                    	<span>Rs.8888/-</span>
+                    </div>
+                    <div class="con4" style="width:150px; height:40px; float:left; padding-top:10px;">
+                    	<span><img src="images/select-date-btn.png" width="120" height="26" title="Select-date" alt="Select-Date" 						 						></span>
+                  </div>
+                </div>
+                <!--Bus details Ends--> 
+            </div>
+            
+        </div>
+<!--Footer Starts-->   		
+        <footer class="footer">
+        	 <div class="left">
+             	<span>About us</span><span>Contact us</span><span>Terms & Conditions</span><span>Privacy Policy</span><span>Sitemap</span><span>Agent Registration</span><br/> <p>&copy; 2008-2012 Mantis Technologies Pvt Ltd.</p>
+             </div>
+             <div class="social">
+             	<span>Connect with us</span>
+             </div>
+        </footer>
+<!--Footer Ends--> 
+</div>
+<!--Wrapper Ends-->    
+    
+</body>
+</html>

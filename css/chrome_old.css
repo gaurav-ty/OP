@@ -1,0 +1,11 @@
+label{display:none !important;}
+
+.selector, .radio, .coupon-text, #Cash_Cards .paddingT10 label, .contactNoDD li label{display:block !important;}
+
+.select-drp-down div{float:left;}
+
+.icon{margin-left:170px;}
+
+#paymentSection{margin-top:0}
+
+.tabs ul{margin-top:-5px !important;}
