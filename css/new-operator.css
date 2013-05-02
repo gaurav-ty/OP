@@ -17,6 +17,9 @@
 	font-size:20px;
 	text-align:center;
 }
+#logo {
+	background:url(../../../Operator-Seo-page/img/Logo-ty.png) no-repeat;
+}
 .bus-details {
 	width:960px;
 	height:auto;
