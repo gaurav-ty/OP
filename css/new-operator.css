@@ -11,22 +11,24 @@
 
 .neeta-header {
 	width:960px;
-	height:40px;
+	height:50px;
 }
-.neeta-header h3 {
-	font-size:20px;
+.neeta-header h2 {
+	font-size:22px;
 	text-align:center;
+	
 }
-#logo {
+
+/*#logo {
 	background:url(../img/Logo-ty.png) no-repeat;
-}
+}*/
 .bus-details {
 	width:960px;
 	height:auto;
 }
 .bus-headers { width:945px; height:40px; padding-left:15px; margin-bottom:5px; /*background-color:#c6e1fa;*/
 background:-webkit-linear-gradient(bottom,#d2d2d2,#fff,#fff);
-background:-moz-linear-gradient(bottom,#ccc,#fff,#fff); background:-ms-linear-gradient(bottom,#ccc,#fff,#fff); border-top:solid #CCC 1px;		
+background:-moz-linear-gradient(bottom,#ccc,#fff,#fff); background:-ms-linear-gradient(bottom,#ccc,#fff,#fff);		
  }
 .bus-headers span {	text-decoration:underline; color:#666; }
 	
@@ -36,7 +38,7 @@ background:-moz-linear-gradient(bottom,#ccc,#fff,#fff); background:-ms-linear-gr
 .col2 { width:120px; height:30px; text-align:center; float:left; }
 .col3 { width:130px; height:30px; text-align:center; float:left; }
 
-.col1,.col2,.col3 { font-size:11px; padding-top:10px; }
+.col1,.col2,.col3 { font-size:12px; padding-top:10px; }
 .con1,.con2,.con3 {  font-weight:bold; color:#666; font-size:14px; padding-top:15px; }
 
 /*Bus header details ends*/
@@ -49,7 +51,7 @@ background:-moz-linear-gradient(bottom,#ccc,#fff,#fff); background:-ms-linear-gr
 .con1 { width:250px; height:35px; text-align:left; font-size:13px; float:left; }
 .con2 { width:120px; height:35px; text-align:center; float:left; }
 .con3 { width:130px; height:35px; text-align:center; float:left; }
-.con4 { background:url(../img/select-date-btn.png) no-repeat;
+.con4 { background:url(../img/select-date-new.png) no-repeat;
 background-position:15px 10px;
  }
 .green { color:#009900; font-weight:bold; }
@@ -60,26 +62,26 @@ background-position:15px 10px;
 
 .travel-info {
 	width:960px;
-	height:325px;
+	height:326px;
 	margin:0 auto;
-	padding-top:10px;
+	padding-top:0px;
 	
 }
 .travel-info h3 {
-	font-size:20px;
+	font-size:22px;
 	text-align:left;
-	padding:10px 10px 15px 0px;
+	padding:0px 10px 20px 0px;
+	
 }
-#neeta-trav .travel-info p {
-	font-family:Verdana, Geneva, sans-serif;
-	font-size:13px;
-	line-height:1.5em;
+.travel-info p {
+	font-size:16px;
+	line-height:1.6em;
 	text-align:left;
 	padding-bottom:10px;
 }
 
 /**/
 
-#padding { height:40px;}
+#no-border { border:none; }
 
 /**/
