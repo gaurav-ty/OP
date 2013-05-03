@@ -30,12 +30,15 @@
 }
 
 #full-header { height:40px; background:-webkit-linear-gradient(bottom,#d2d2d2,#fff,#fff);
-background:-moz-linear-gradient(bottom,#ccc,#fff,#fff); background:-ms-linear-gradient(bottom,#ccc,#fff,#fff);	 }
+background:-moz-linear-gradient(bottom,#ccc,#fff,#fff); background:-ms-linear-gradient(bottom,#ccc,#fff,#fff);
+background:-o-linear-gradient(bottom,#ccc,#fff,#fff); 
+}
 
 .bus-headers { width:945px; height:40px; margin:0 auto; padding-left:15px; margin-bottom:5px; /*background-color:#c6e1fa;*/
 background:-webkit-linear-gradient(bottom,#d2d2d2,#fff,#fff);
 background:-moz-linear-gradient(bottom,#ccc,#fff,#fff); background:-ms-linear-gradient(bottom,#ccc,#fff,#fff);		
- }
+background:-o-linear-gradient(bottom,#ccc,#fff,#fff); 
+}
 
 .bus-headers span {	 color:#666; }
 	
