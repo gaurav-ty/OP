@@ -38,7 +38,7 @@ background:-moz-linear-gradient(bottom,#ccc,#fff,#fff); background:-ms-linear-gr
 .col2 { width:120px; height:30px; text-align:center; float:left; }
 .col3 { width:130px; height:30px; text-align:center; float:left; }
 
-.col1,.col2,.col3 { font-size:12px; font-weight:bold; padding-top:10px; }
+.col1,.col2,.col3 { font-size:13px; font-weight:bold; padding-top:10px; }
 .con1,.con2,.con3 {  font-weight:bold; color:#666; font-size:14px; padding-top:15px; }
 
 /*Bus header details ends*/
