@@ -1,0 +1,105 @@
+@charset "utf-8";
+/* CSS Document */
+
+#neeta-trav {
+  width:960px;
+	height:auto;
+	margin:0 auto;
+	/*font-family:Arial, Helvetica, sans-serif;*/
+	
+}
+
+.neeta-header {
+	width:960px;
+	height:50px;
+	margin:0 auto;
+	margin-top:40px;
+}
+.neeta-header h2 {
+	font-size:22px;
+	text-align:center;
+	
+}
+
+/*#logo {
+	background:url(../img/Logo-ty.png) no-repeat;
+}*/
+.bus-details {
+	width:960px;
+	height:auto;
+}
+
+#full-header { height:40px; background:-webkit-linear-gradient(bottom,#d2d2d2,#fff,#fff);
+background:-moz-linear-gradient(bottom,#ccc,#fff,#fff); background:-ms-linear-gradient(bottom,#ccc,#fff,#fff);
+background:-o-linear-gradient(bottom,#ccc,#fff,#fff); 
+}
+
+.bus-headers { width:945px; height:40px; margin:0 auto; padding-left:15px; margin-bottom:5px; /*background-color:#c6e1fa;*/
+background:-webkit-linear-gradient(bottom,#d2d2d2,#fff,#fff);
+background:-moz-linear-gradient(bottom,#ccc,#fff,#fff);
+background:-ms-linear-gradient(bottom,#ccc,#fff,#fff);background:-o-linear-gradient(bottom,#ccc,#fff,#fff);
+		
+ }
+
+.bus-headers span {	 color:#666; }
+	
+/*Bus header details*/
+
+.col1 { width:230px; height:30px; text-align:left; float:left; }
+.col2 { width:110px; height:30px; text-align:center; float:left; }
+.col3 { width:100px; height:30px; text-align:center; float:left; }
+.col4 { width:113px; height:30px; float:left;  }
+
+.col1,.col2,.col3, .col4 { font-size:11px; font-weight:bold; padding-top:10px; }
+.con1 { /* font-weight:bold;*/ color:#666; font-size:14px; padding-top:20px; }
+.con1 { font-weight:bold; }
+/*Bus header details ends*/
+
+.bus-content { width:945px; height:65px;  padding-left:15px; padding-top:4px; border-bottom:1px solid #CCC;  }
+
+
+
+/*Bus Content details*/
+.con1 { width:230px; height:46px; text-align:left; font-size:13px; float:left; }
+.con2 { width:110px; height:60px; text-align:center; float:left; }
+.con3 { width:100px; height:60px; text-align:center; float:left; }
+.con4 { background:url(../img/select-date-new.png) no-repeat;
+background-position:25px 15px;
+ }
+
+.bustype { width:113px; height:61px; float:left;  }
+.type1 { width:113px; height:18px; float:left; font-size:12px;  padding-top:2px; }
+
+.buses { width:110px; height:60px; } 
+.buses-count { width:110px; height:18px; float:left; font-size:12px; padding-top:2px;}
+
+.firstbus,.lastbus, .fare { width:100px; height:18px; float:left; font-size:12px; padding-top:2px; }
+#border { border-bottom:1px solid #CCC;  }
+/*Bus Content details ends*/
+
+
+.travel-info {
+	width:960px;
+	height:auto;
+	margin:0 auto;
+	padding-top:0px;
+	
+}
+.travel-info h3 {
+	font-size:22px;
+	text-align:center;
+	padding:0px 10px 20px 0px;
+	
+}
+.travel-info p {
+	font-size:15px;
+	line-height:1.6em;
+	text-align:left;
+	padding-bottom:10px;
+}
+
+/**/
+
+#no-border { border:none; }
+
+/**/
